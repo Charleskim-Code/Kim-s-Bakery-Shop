@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="body.css">
+    <script src="header.js"></script>
+    <script src="body.js"></script>
+    
+    <title>Login</title>
+</head>
+<body>
+
+
+
+  <!-- NAVIGATION BAR -->
+ <nav>
+        <ul class="sidebar">
+            <li class="close-btn" onclick="HideSidebar()"><button class="close"><img src="menu-and-close_btn/close-btn.svg"></button></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Admin</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+
+         <ul>
+            <li><a href="#"><img src="My-logo_img/kimsbaker.png" height="50px" alt="Logo">Kim's Bakery</a></li>
+            <li class="Hide-mobile"><a href="#">Home</a></li>
+            <li class="Hide-mobile"><a href="#">Menu</a></li>
+            <li class="Hide-mobile"><a href="#">Orders</a></li>
+            <li class="Hide-mobile"><a href="#">Cart</a></li>
+            <li class="Hide-mobile"><a href="#">Admin</a></li>
+            <li class="Hide-mobile"><a href="#">About</a></li>
+            <li class="Hide-contact"><a href="#">Contact</a></li>
+            <li class="menu-btn" onclick="showSidebar()"><button class="menu-button"><img src="menu-and-close_btn/menu-btn.svg"></a></li>
+        </ul>
+    </nav>
+<!-- END -->
+ 
+    <!-- HOME SECTION -->
+    <section class="home_section">
+        <div class="home-section_content">
+           
+            <h1 class="shop-name">Kim's Bakery</h1>
+            <h3 class="shop-tagline">Our bakery fills every day with the warm, delicious scent of freshly baked goodness.</h3>     
+        <div class="order_div">
+        <button class="order-btn">Order Now!</button>
+    </div>
+    </div>
+    </section>
+    <!-- END-->
+
+
+    <!-- PRODUCTS SECTION -->
+    <main class="products_section">
+        <div class="products_content">
+            <div class="menu_div">
+                <h2 class="our-menu_txt">Our Menu</h2>
+            
+                
+            <div class="menu_content">
+                <a href="Kim'sBakery.html">Breads</a>
+                  <a href="Cakes.html">Cakes</a>
+                      <a href="Pies">Pies</a>
+                        <a href="Drinks">Drinks</a>
+            </div>
+            </div>
+      
+
+
+            
+<div class="grid_breads">
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images">
+        <img class="bread" src="Products-image/spanishbread.jpg" alt="Spanish Bread">
+      </div>
+      <div class="bread-info">
+        <p class="bread-name">Spanish Bread</p>
+        <p class="price">₱ 5.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images">
+        <img class="bread" src="Products-image/pandecoco.webp" alt="Pan de coco">
+      </div>
+      <div class="bread-info">
+        <p class="bread-name">Pan De Coco</p>
+        <p class="price">₱ 6.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images">
+        <img class="bread" src="Products-image/ensaymada.webp" alt="Ensaymada">
+      </div>
+      <div class="bread-info">
+        <p class="Ensaymada">Ensaymada</p>
+        <p class="price">₱ 10.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images">
+        <img class="bread" src="Products-image/pandesal.webp" alt="Pandesal">
+      </div>
+      <div class="bread-info">
+        <p class="bread-name">Pandesal</p>
+        <p class="price">₱ 5.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images">
+        <img class="bread" src="Products-image/kalihim.jpg" alt="Kalihim">
+      </div>
+      <div class="bread-info">
+        <p class="bread-name">Kalihim</p>
+        <p class="price">₱ 8.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images">
+        <img class="bread" src="Products-image/putok.webp" alt="Sputnik/Putok">
+      </div>
+      <div class="bread-info">
+        <p class="bread-name">Sputnik</p>
+        <p class="price">₱ 5.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images-adjust">
+        <img class="bread-pinagong" src="Products-image/pinagong_filipino_bread.jpg" alt="Pinagong">
+      </div>
+      <div class="bread-info">
+        <p class="bread-name">Pinagong</p>
+        <p class="price">₱ 5.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images">
+        <img class="bread" src="Products-image/pianono.jpg" alt="Pianono">
+      </div>
+      <div class="bread-info">
+        <p class="bread-name">Pianono</p>
+        <p class="price">₱ 5.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images-adjust">
+        <img class="bread-tasty" src="Products-image/tasty.webp" alt="Tasty Bread">
+      </div>
+      <div class="bread-info">
+        <p class="bread-name">Tasty Bread</p>
+        <p class="price">₱ 50.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images">
+        <img class="bread" src="Products-image/cheesebread.jpg" alt="Cheese Bread">
+      </div>
+      <div class="bread-info">
+        <p class="bread-name">Cheese Bread</p>
+        <p class="price">₱ 5.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images">
+        <img class="bread" src="Products-image/hopia.webp" alt="Hopiang Ube">
+      </div>
+      <div class="bread-info">
+        <p class="bread-name">Hopiang Ube</p>
+        <p class="price">₱ 5.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="breads_card">
+    <div class="breads_content">
+      <div class="bread-images">
+        <img class="bread" src="Products-image/ubebars.jpg" alt="Ube Bars">
+      </div>
+      <div class="bread-info">
+        <p class="bread-name">Ube Bars</p>
+        <p class="price">₱ 5.00 </p>
+      </div>
+      <div class="buttons">
+        <button class="buy">Buy</button>
+        <button class="addcart" onclick="addCart()">Add-to-Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</main>
+
+
+ <!-- BEST SELLER SECTION -->
+<section class="best-seller_section">
+  <div class="best-seller_content">
+    <h1 class="best-seller_title">Our Best Seller Breads</h1>
+    <div class="best-seller_grid">
+
+      <div class="best-seller_card">
+        <div class="best-seller_card_content">
+          <div class="best-seller_image">
+        <img src="Products-image/spanishbread.jpg" alt="Spanish Bread">
+        </div>
+        <div class="best-seller_info">
+          <h2 class="best-seller_name">Spanish Bread</h2>
+          <p class="best-seller_descript">Spanish Bread is a soft, sweet Filipino pastry filled with buttery sugar and rolled into a golden, delicious spiral.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="best-seller_card">
+        <div class="best-seller_card_content">
+          <div class="best-seller_image">
+        <img src="Products-image/ensaymada.webp" alt="Ensaymada">
+        </div>
+        <div class="best-seller_info">
+          <h2 class="best-seller_name-2">Ensaymada</h2>
+          <p class="best-seller_descript">Ensaymada is a soft, fluffy Filipino bread topped with butter, sugar, and grated cheese, making it a sweet and savory favorite for any occasion.</p>
+          </div>
+        </div>
+      </div>
+
+            <div class="best-seller_card">
+        <div class="best-seller_card_content">
+          <div class="best-seller_image">
+        <img src="Products-image/pandesal.webp" alt="Pandesal">
+        </div>
+        <div class="best-seller_info">
+          <h2 class="best-seller_name-3">Pandesal</h2>
+          <p class="best-seller_descript">Pandesal is a classic Filipino bread roll that’s soft inside with a slightly crisp crust, enjoyed fresh and warm for breakfast or snacks.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+</section>
+<!-- END -->
+
+
+<!-- CUSTOMER FEEDBACKS -->
+<section class="customer-feedback_section">
+
+<div class="customer-feedback_content">
+    <h1 class="customer-feedbacks_txt">Customer Feedbacks</h1>
+
+<div class="customer-feedback_grid">
+    
+
+    <div class="customer-feedback_card">
+        <div class="customer-feedback_card-content">
+                    <p class="stars-rate">⭐⭐⭐⭐⭐⭐</p>
+            <div class="customer-profile">
+                <img src="Customers-image/customer1.webp" alt="Customer Profile">
+            </div>
+            <div class="customer-replies">
+                <h3 class="customer-name">CharlesKim</h3>
+                <p>Your breads are so soft, tasty and fluffy!</p>
+            </div>
+            <div class="view-orders_btn">
+                <button>View Orders</button>
+            </div>
+        </div>
+    </div>
+
+  <div class="customer-feedback_card">
+        <div class="customer-feedback_card-content">
+          <p class="stars-rate">⭐⭐⭐⭐⭐⭐</p>
+            <div class="customer-profile">
+                <img src="Customers-image/customer2.jpg" alt="Customer Profile">
+            </div>
+            <div class="customer-replies">
+                <h3 class="customer-name">EllaMae</h3>
+                <p>My kids enjoy your sweet ensaymada every weekend!</p>
+            </div>
+            <div class="view-orders_btn">
+                <button>View Orders</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="customer-feedback_card">
+        <div class="customer-feedback_card-content">
+                    <p class="stars-rate">⭐⭐⭐⭐⭐⭐</p>
+            <div class="customer-profile">
+                <img src="Customers-image/customer3.png" alt="Customer Profile">
+            </div>
+            <div class="customer-replies">
+                <h3 class="customer-name">Ronnie</h3>
+                <p>Highly recommend, breads are so good!</p>
+            </div>
+            <div class="view-orders_btn">
+                <button>View Orders</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="customer-feedback_card">
+        <div class="customer-feedback_card-content">
+                    <p class="stars-rate">⭐⭐⭐⭐⭐⭐</p>
+            <div class="customer-profile">
+                <img src="Customers-image/customer4.png" alt="Customer Profile">
+            </div>
+            <div class="customer-replies">
+                <h3 class="customer-name">Grace</h3>
+                <p>Always a great experience. Never had a bad order!</p>
+            </div>
+            <div class="view-orders_btn">
+                <button>View Orders</button>
+            </div>
+        </div>
+    </div>
+
+     <div class="customers-messgae_card">
+    <div class="message-form">
+    <label class="feedback-word" for="message">Your Feedbacks:</label><br>
+    <textarea class="feedback-box" id="message" placeholder="Type your message here..."></textarea><br>
+    <button class="submit-btn"   onclick="submitMessage()">Submit</button>
+  </div>
+   </div>
+   </div>
+    </div>
+</section>
+<!-- END -->
+
+<!-- SPECIAL OFFER SECTION -->
+<section class="special-offer_section">
+ <h1 class="special-title">Special Offers</h1>
+
+ <div class="special-offer_grid">
+
+  <div class="special-offer_content">
+    <div class="special-offer_card">
+      <img src="Special-offers_image/bread-coffee.jpg" alt="Bread and Coffee Offer" class="special-img">
+      <div class="special-details">
+        <h2>Buy 10 Breads, Get 1 Coffee Free!</h2>
+        <p>Enjoy a complimentary cup of our freshly brewed coffee when you purchase any bread from Kim's Bakery. Perfect for breakfast or merienda!</p>
+        <ul>
+          <li>Valid for dine-in and take-out</li>
+          <li>Promo runs until July 31, 2025</li>
+        </ul>
+        <button class="special-btn">Order Now</button>
+      </div>
+    </div>
+  </div>
+
+   <div class="special-offer_content">
+     <div class="special-offer_card">
+      <img src="Special-offers_image/specialOff-Cake.jpg" alt="Pies and Cake Offer" class="special-img">
+      <div class="special-details">
+        <h2>Buy Two Pies, Get 1 Cake Free!</h2>
+        <p>Enjoy a free cake when you buy any two pies from Kim's Bakery. It's the perfect treat for sharing with friends and family.</p>
+        <ul>
+          <li>Valid for dine-in and take-out</li>
+          <li>Promo runs until July 31, 2025</li>
+        </ul>
+        <button class="special-btn">Order Now</button>
+      </div>
+    </div>
+    </div>
+
+    <div class="special-offer_content">
+       <div class="special-offer_card">
+      <img src="Special-offers_image/50off.jpg" alt="Voucher Promo" class="special-img">
+      <div class="special-details">
+        <h2>Buy Different Products and Get 50% off Coupon!</h2>
+       <p>Buy any two different products from Kim's Bakery and receive a 50% discount coupon for your next purchase. Enjoy more treats and save</p>
+        <ul>
+          <li>Valid for dine-in and take-out</li>
+          <li>Promo runs until July 31, 2025</li>
+        </ul>
+        <button class="special-btn">Order Now</button>
+      </div>
+      </div>
+    </div>
+    </div>
+</section>
+<!-- END -->
+
+<section class="our-bakers_section">
+
+  <div class="our-bakers_content">
+
+     <h1 class="our-bakers_txt">Our Bakers</h1>
+
+  <div class="our-bakers_grid">
+    <div class="baker-cards">
+      <div class="baker-cards_content">
+        <div class="bakers-image">
+          <img src="Bakers-image/baker1.jpg" alt="Jacob Sr. Profile">
+        </div>
+        <div class="baker-info">
+          <h1 class="baker-name">Jacob Sr.</h1>
+          <h3 class="years-of-experience">10 Years of Serving</h2>
+          <p class="especiliaztion">Expert in Baking a Bread</p>
+        </div>
+        <div class="info-button">
+          <button class="viewProf-btn">View Profile</button>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="baker-cards">
+      <div class="baker-cards_content">
+        <div class="bakers-image">
+          <img src="Bakers-image/baker2.jpg" alt="Jessica Profile">
+        </div>
+        <div class="baker-info">
+          <h1 class="baker-name">Jessica</h1>
+          <h3 class="years-of-experience">3 Years of Serving</h2>
+          <p class="especiliaztion">Expert in Baking a Cake</p>
+        </div>
+        <div class="info-button">
+          <button class="viewProf-btn">View Profile</button>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="baker-cards">
+      <div class="baker-cards_content">
+        <div class="bakers-image">
+          <img src="Bakers-image/baker3.jpg" alt="Jerald Profile">
+        </div>
+        <div class="baker-info">
+          <h1 class="baker-name">Jerald</h1>
+          <h3 class="years-of-experience">7 Years of Serving</h2>
+          <p class="especiliaztion">Expert in Baking a Pie</p>
+        </div>
+        <div class="info-button">
+          <button class="viewProf-btn">View Profile</button>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="baker-cards">
+      <div class="baker-cards_content">
+        <div class="bakers-image">
+          <img src="Bakers-image/barista.jpg">
+        </div>
+        <div class="baker-info">
+          <h1 class="baker-name">Hannah</h1>
+          <h3 class="years-of-experience">2 Years of Serving</h2>
+          <p class="especiliaztion">Expert Barista</p>
+        </div>
+        <div class="info-button">
+          <button class="viewProf-btn">View Profile</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</section>
+    
+
+
+
+   <section class="login-form_section">
+<div class="bg">
+    <img class="bakery-logo" src="My-logo_img/kimsbaker.png">
+</div>
+      <div class="bg-form">
+<div class="form-card">
+            <form class="login-account" action="login.php" method="POST" enctype="multipart/form-data">
+                 
+                <div class="log-acc">
+                    <h2>Login Account</h2> 
+                    
+              
+                <div class="form-content">
+
+                    <label for="email">Email</label>
+                    <input class="email" type="email"
+                    placeholder="Email Address" id="email" name="email" required >
+
+                    <label for="password">Password</label>
+                    <input class="password" type="password" name="password" placeholder="Password" id="password" required maxlength="18">
+
+                    <button class="login-acc" type="submit" name="login">Log in</button>
+                </div>
+                <div class="terms-and-policy">
+                    <p>By continuing, you accept our <a class="terms" href="">Terms of Use</a> , our <a class="privacy" href="">Privacy Policy </a>and that your data is stored in the Philippines.</p>
+
+                </div>
+                <div class="create-acc">
+                <p class="no-acc">No Account yet?</p><a href="#">Create an Account</a>
+                </div>
+            </form>
+            </div>
+    
+            </div>
+    </div>
+</section>
+
+
+<section class="location-and-contact_section">
+  <div class="location-content">
+    <div class="shop-img">
+      <img src="Background-img/bakery-loc-img.jpg" alt="Bakery Shop" height="400px">
+      </div>
+    <div class="location-details">
+      <h1 class="location-title">Location and Contact</h1>
+      <p class="address">123 Bakery Lane, Sweet City, Philippines</p>
+      <p class="phone">Phone: +63 912 345 6789</p>
+      <p class="email">Email: kimsbakery@gmail.com</p>
+      <p class="hours">Business Hours: Mon-Sat, 8:00 AM - 6:00 PM</p>
+      <p class="social-media">Follow us on social media for updates and special offers!</p>
+      <div class="social-icons">
+        <a href="#"><img src="Social-links_image/fb-logo.png" alt="Facebook" height="50px"></a>
+        <a href="#"><img src="Social-links_image/instagram-logo.png" alt="Instagram" height="50px"></a>
+        <a href="#"><img src="Social-links_image/tiktok-logo.webp" alt="Twitter" height="50px"></a>
+      </div>
+      </div>
+      </div>
+</section>
+
+
+</body>
+</html>

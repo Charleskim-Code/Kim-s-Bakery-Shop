@@ -1,0 +1,149 @@
+nav {
+    background-color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 1px 2px 4px rgb(31, 29, 29);
+    
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+nav li {
+    height: 100%;
+    
+}
+
+
+
+
+nav li:first-child {
+    margin-right: auto;
+    font-size: 1.4em;
+    
+}
+
+nav a {
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(139, 77, 0);
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: white;
+    display: none;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 60vh;
+    padding-left: 0;
+    width: 200px;
+    box-shadow: 1px 2px 3px black;
+}
+
+.menu-btn {
+    margin-right: 70px;
+    height: 100%;
+    display: none;
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+
+.menu-button {
+    background: none;
+    transition: 0.10s;
+}
+
+
+.menu-button:hover {
+    background-color: antiquewhite;
+}
+
+
+.close {
+    background-color: white;
+    transition: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: 0.10s;
+}
+
+.close:hover {
+    background-color: antiquewhite;
+}
+
+.Hide-contact {
+    margin-right: 80px;
+}
+
+
+@media (max-width:700px) {
+    .menu-btn {
+        display: block;
+    }
+    .Hide-mobile, .Hide-contact {
+        display: none;
+    }
+    nav li:first-child {
+        width: 50px;
+        margin-left: 30px;
+
+    }
+    
+}
+
+@media (min-width: 701px) and (max-width:1100px)  {
+    
+   .menu-btn {
+        display: none;
+    }
+
+    nav a {
+        font-size: 0.90em;
+    }
+
+    .Hide-contact {
+        margin-right: 50px;
+    }
+  
+    nav a{
+        padding: 0 10px;
+    }
+
+    nav li:first-child {
+        margin-left: 30px;
+    }
+
+
+}
+
+
+
+
+
