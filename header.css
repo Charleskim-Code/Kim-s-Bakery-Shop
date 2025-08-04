@@ -63,6 +63,7 @@ nav a:hover {
     padding-left: 0;
     width: 200px;
     box-shadow: 1px 2px 3px black;
+    z-index: 1;
 }
 
 .menu-btn {
@@ -87,8 +88,9 @@ nav a:hover {
 
 .close {
     background-color: white;
-    transition: none;
-    margin-right: 20px;
+    display: flex;
+    margin-right: auto;
+    align-self: center;
     margin-top: 20px;
     border-radius: 5px;
     transition: 0.10s;
