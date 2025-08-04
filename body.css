@@ -1123,6 +1123,7 @@ button:active {
 
 .years-of-experience {
   margin: 0px;
+  font-weight: lighter;
 }
 .baker-name {
   margin-top: 10px;
@@ -1132,6 +1133,7 @@ button:active {
 .especiliaztion {
   margin-top: 10px;
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .viewProf-btn {
@@ -1193,11 +1195,11 @@ button:active {
   }
 
   .baker-info {
-    font-size: 0.65em;
+    font-size: 0.7em;
   }
 
   .viewProf-btn {
-    font-size: 0.6em;
+    font-size: 0.8em;
   }
 }
 

@@ -29,6 +29,8 @@ nav li:first-child {
   font-size: 1.4em;
 }
 
+
+
 nav a {
   height: 100%;
   color: black;
@@ -62,7 +64,7 @@ nav a:hover {
 }
 
 .menu-btn {
-  margin-right: 80px;
+  margin-right: 60px;
   height: 100%;
   display: none;
   position: relative;
@@ -111,10 +113,21 @@ nav a:hover {
     width: 50px;
     font-size: 0.8em;
   }
+  .bakery-name {
+    display: none;
+  }
+
+  .My-logo {
+    position: absolute;
+  }
 }
 
 @media (min-width: 701px) and (max-width: 1100px) {
   .menu-btn {
+    display: none;
+  }
+
+  .bakery-name {
     display: none;
   }
 
@@ -131,7 +144,7 @@ nav a:hover {
   }
 
   nav li:first-child {
-    margin-left: 30px;
+    margin-left: 20px;
     font-size: 1.2em;
   }
 }
