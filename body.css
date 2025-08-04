@@ -208,8 +208,6 @@
   }
 }
 
-
-
 .grid_breads {
   margin-top: 40px;
   display: grid;
@@ -241,7 +239,6 @@
   width: 180px;
   height: 180px;
 }
-
 
 .bread-info {
   color: rgb(255, 255, 255);
@@ -619,7 +616,7 @@ button:active {
     margin: 0;
   }
 
-  .best-seller_descript { 
+  .best-seller_descript {
     margin: 0;
   }
 
@@ -664,7 +661,7 @@ button:active {
   .best-seller_descript {
     margin: 0;
   }
-} 
+}
 
 @media (min-width: 701px) and (max-width: 1000px) {
   .best-seller_grid {
@@ -772,7 +769,6 @@ button:active {
   margin: 0 auto;
   padding: 0 12px;
 }
-
 
 .customer-feedback_grid {
   display: grid;
@@ -1349,7 +1345,6 @@ button:active {
   }
 }
 
-
 .login-form_section {
   display: flex;
   flex-direction: row;
@@ -1507,7 +1502,6 @@ input {
     max-width: 120px;
   }
 }
-
 
 .shop-img img {
   height: 400px;
